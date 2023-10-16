@@ -8,4 +8,5 @@
 
 body {
   background-color: rgb(68, 97, 68);
+  display: flex;
 }
