@@ -35,6 +35,10 @@ function generateCard() {
 
 generateCard();
 
+const cardGeneratorButton = document.getElementById('cardGeneratorButton');
+
+cardGeneratorButton.addEventListener('click', generateCard);
+
 // setInterval(() => {
 //   generateCard();
 // }, 5000);
