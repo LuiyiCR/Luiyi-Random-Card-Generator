@@ -8,5 +8,42 @@
 
 body {
   background-color: rgb(68, 97, 68);
+}
+
+.container {
+  margin-top: 30px;
+}
+
+.card-suit {
   display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  max-width: 230px;
+  min-height: 50vh;
+  background-color: aliceblue;
+  border-radius: 10px;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.suit-top,
+.suit-bottom,
+.card-number {
+  margin: 20px;
+  font-size: 45px;
+}
+
+.suit-top {
+  background-color: red;
+  align-items: ;
+}
+
+.suit-bottom {
+  background-color: red;
+}
+
+.btn {
+  background-color: aliceblue;
+  margin-top: 50px;
 }
