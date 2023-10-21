@@ -17,7 +17,7 @@ body {
 .card-suit {
   margin: 0 auto;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   max-width: 230px;
   min-height: 50vh;
   background-color: aliceblue;
@@ -30,7 +30,6 @@ body {
 .suit-top,
 .suit-bottom,
 .card-number {
-  margin: 20px;
   font-size: 55px;
 }
 
