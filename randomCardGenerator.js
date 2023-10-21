@@ -5,7 +5,6 @@ function generateCard() {
 
   const numbers = [
     'A',
-    '1',
     '2',
     '3',
     '4',
@@ -41,4 +40,4 @@ cardGeneratorButton.addEventListener('click', generateCard);
 
 // setInterval(() => {
 //   generateCard();
-// }, 5000);
+// }, 2000);
